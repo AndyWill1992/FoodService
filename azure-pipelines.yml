@@ -28,6 +28,8 @@ variables:
 
 steps:
 
-- script: dotnet build --configuration $(buildConfiguration)
-
+- script: |
+    cd FoodService/FoodServiceAPI
+    dotnet build FoodServiceAPI.csproj --configuration $(buildConfiguration)
+    
   displayName: 'dotnet build $(buildConfiguration)'
