@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodServiceAPI", "FoodServiceAPI\FoodServiceAPI.csproj", "{1E9823E8-448F-425D-82D3-99B21FABE075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodServiceAPI.Test", "FoodServiceAPI.Test\FoodServiceAPI.Test.csproj", "{672F5A20-1C37-4D9C-9CE1-40277CB5257F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodServiceAPI.Test", "FoodServiceAPI.Test\FoodServiceAPI.Test.csproj", "{672F5A20-1C37-4D9C-9CE1-40277CB5257F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
